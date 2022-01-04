@@ -1,8 +1,8 @@
 pipeline {
     agent any
     
-    /*stages {
-        stage('Build') {
+    stages {
+        /*stage('Build') {
             steps {
                 sh 'mvn -B -DskipTests clean package'
             }

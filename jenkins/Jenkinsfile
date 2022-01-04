@@ -9,13 +9,17 @@ pipeline {
         }*/
         stage('Test') {
             steps {
-                sh 'mvn test'
+                // dir("<Your path where scripts are present>")
+                dir ("C:/HelloWorld"){
+                // Execute your java file
+                bat 'dir'
+                }
             }
         }
-        stage('Deliver') {
+        /*stage('Deliver') {
             steps {
                 sh './jenkins/scripts/deliver.sh'
             }
-        }
+        }*/
     }
 }

@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                dir ('C:/opt/apache-maven-3.8.4/bin'){
                 bat 'mvn package'
+                }
             }
         }
         stage('Test') {

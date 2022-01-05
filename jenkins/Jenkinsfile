@@ -8,9 +8,9 @@ pipeline {
                 git branch: 'main',
                 credentialsId: '08e4a8ef-c2cf-4c3c-b704-5852224e98c4',
                 url: 'https://github.com/dremaux/projetGOsecurie.git'
-                withMaven {
+                /*withMaven {
                     bat "mvn"
-                }
+                }*/
             } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe reports and FindBugs reports
           }
         stage('Test') {

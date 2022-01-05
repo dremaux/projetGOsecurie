@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
-  		<groupId>com.squareup.okhttp3</groupId>
+  		<groupId>com.squareup.okhttp3:okhttp:4.+</groupId>
   		<artifactId>okhttp</artifactId>
   		<version>4.9.1</version>
   	</dependency>

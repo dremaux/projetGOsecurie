@@ -10,13 +10,4 @@
   		<version>4.9.1</version>
   	</dependency>
   </dependencies>
-  <configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.goSecuri.Test</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
 </project>

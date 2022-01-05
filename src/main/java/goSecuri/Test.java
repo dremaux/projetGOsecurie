@@ -1,4 +1,4 @@
-package goSecuri;
+package com.goSecuri.Test;
 import java.util.*;
 import java.io.*;
 

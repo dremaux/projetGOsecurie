@@ -37,7 +37,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.classes.goSecuri.Test</mainClass>
+              <mainClass></mainClass>
             </manifest>
           </archive>
         </configuration>

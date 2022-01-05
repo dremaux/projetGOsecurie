@@ -13,14 +13,8 @@ public class Okhttp {
 	        .url(url)
 	        .build();
 
-Response response = null;
-try {
-    response = client.newCall(request).execute();
-    return response.body().string();
-} finally {
-    if (response != null) {
-        response.close();
-    }
-}
+	    try (Response response = client.newCall(request).execute()) {
+	      return response.body().string();
+	    }
 	  }
 }

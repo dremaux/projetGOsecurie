@@ -1,9 +1,7 @@
 package goSecuri;
 import java.util.*;
 import java.io.*;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+
 
 public class Test {
 	private static ListIterator<String> li;
@@ -76,7 +74,7 @@ public class Test {
 					+ "<html lang=\"en\">\r\n"
 					+ "<FONT face=\"roboto\">\r\n"
 					+ "    <head>\r\n"
-					+ "        <meta charset=\"utf-8\" />\r\n"
+					+ "<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />"
 					+ "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" />\r\n"
 					+ "        <meta name=\"description\" content=\"\" />\r\n"
 					+ "        <meta name=\"author\" content=\"\" />\r\n"
@@ -103,7 +101,7 @@ public class Test {
 			br.readLine();
 			writer.print("</div>\r\n"
 					+ "\r\n"
-					+ "        <div class=\"photo\">" + "<img src=\"https://raw.githubusercontent.com/dremaux/projetMSPR/main/" + name + ".jpg\">" + "</div>\r\n"
+					+ "        <div class=\"photo\">" + "<img src=\"https://raw.githubusercontent.com/dremaux/projetMSPR/main/" + name + ".jpg\"height=\"200\" weith=\"200\">" + "</div>\r\n"
 					+ "        <!-- Content section-->\r\n"
 					+ "        <section class=\"py-5\">\r\n"
 					+ "            <div class=\"container my-5\">\r\n"
@@ -172,7 +170,7 @@ public class Test {
 					+ "<html lang=\"en\">\r\n"
 					+ "<FONT face=\"roboto\">\r\n"
 					+ "    <head>\r\n"
-					+ "        <meta charset=\"utf-8\" />\r\n"
+					+ "<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />"
 					+ "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\" />\r\n"
 					+ "        <meta name=\"description\" content=\"\" />\r\n"
 					+ "        <meta name=\"author\" content=\"\" />\r\n"
@@ -238,4 +236,3 @@ public class Test {
 		}
 	}
 }
-

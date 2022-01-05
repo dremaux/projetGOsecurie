@@ -2,13 +2,12 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
-            steps {
-                dir ('C:/opt/apache-maven-3.8.4/bin'){
-                bat 'mvn package'
-                }
-            }
-        }
+        stage ('Build') {
+            git url: 'https://github.com/dremaux/projetGOsecurie'
+            withMaven {
+              bat "mvn"
+            } // withMaven will discover the generated Maven artifacts, JUnit Surefire & FailSafe reports and FindBugs reports
+          }
         stage('Test') {
             steps {
                 // dir("<Your path where scripts are present>")

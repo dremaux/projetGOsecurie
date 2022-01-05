@@ -20,7 +20,7 @@ pipeline {
         }*/
         stage('Deliver') {
             steps {
-                bat 'mvn'
+                bat 'mvn -B -DskipTests clean package'
             }
         }
     }

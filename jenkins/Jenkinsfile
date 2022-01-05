@@ -15,11 +15,7 @@ pipeline {
           }
         stage('Test') {
             steps {
-                // dir("<Your path where scripts are present>")
-                dir ("C:/HelloWorld"){
-                // Execute your java file
                 bat 'dir'
-                }
             }
         }
         stage('Deliver') {

@@ -1,4 +1,4 @@
-package com.goSecuri.Test;
+package goSecuri;
 
 import java.io.IOException;
 

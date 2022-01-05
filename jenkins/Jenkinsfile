@@ -27,7 +27,7 @@ pipeline {
         stage('Run') {
             steps {
                 //bat 'java -jar /target/goSecuri-0.0.1-SNAPSHOT.jar'
-                bat 'dir'
+                bat 'java -jar target/goSecuri-0.0.1-SNAPSHOT.jar'
             }
         }
     }

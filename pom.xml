@@ -22,7 +22,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>goSecuri.Test/mainClass>
+            <mainClass>goSecuri.Test</mainClass>
           </manifest>
         </archive>
         <descriptorRefs>

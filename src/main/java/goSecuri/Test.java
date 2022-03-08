@@ -130,14 +130,14 @@ public class Test {
 					if(find) {
 						find = false;
 						for(int i = 1; i < s.length;i++) {
-							writer.print("☑		"+s[i] + " ");
+							writer.print("☑ "+s[i] + " ");
 						}
 						writer.print("<br>");
 					}
 					else {
 						
 						for(int i = 1; i < s.length;i++) {
-							writer.print("☐		"+s[i] + " ");
+							writer.print("☐ "+s[i] + " ");
 						}
 						writer.print("<br>");
 					}

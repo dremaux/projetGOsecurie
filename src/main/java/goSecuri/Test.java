@@ -130,14 +130,14 @@ public class Test {
 					if(find) {
 						find = false;
 						for(int i = 1; i < s.length;i++) {
-							writer.print(""+s[i] + " ");
+							writer.print(<img src="https://github.com/dremaux/projetGOsecurie/blob/a2fa939bc7a73bea276b5c0be9e2d4ff87b9669b/src/img/ok.jpg" >+s[i] + " ");
 						}
 						writer.print("<br>");
-					}
+					
 					else {
 						
 						for(int i = 1; i < s.length;i++) {
-							writer.print(""+s[i] + " ");
+							writer.print(<img src="https://github.com/dremaux/projetGOsecurie/blob/a2fa939bc7a73bea276b5c0be9e2d4ff87b9669b/src/img/pasok.png">+s[i] + " ");
 						}
 						writer.print("<br>");
 					}

@@ -67,8 +67,14 @@ public class Test {
 	public static void genererAgent(String name) {
 		boolean find = false;
 		try {
-			BufferedReader brl = new BufferedReader(new FileReader("C://ProjEpsi/liste.txt"));
-			BufferedReader br = new BufferedReader(new FileReader("C://ProjEpsi/"+ name +".txt"));
+			InputStream fis = new FileInputStream("C://ProjEpsi/liste.txt");
+            		Reader utfReader = new InputStreamReader(fis,"UTF-8");
+            		InputStream fis2 = new FileInputStream("C://ProjEpsi/"+ name +".txt");
+            		Reader utfReader2 = new InputStreamReader(fis2,"UTF-8");
+
+            		BufferedReader brl = new BufferedReader(utfReader);
+            		BufferedReader br = new BufferedReader(utfReader2);
+
 			PrintWriter writer = new PrintWriter("C://ProjEpsi/" + name +".html", "UTF-8");
 			writer.print("<!DOCTYPE html>\r\n"
 					+ "<html lang=\"en\">\r\n"

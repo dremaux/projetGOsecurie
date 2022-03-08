@@ -136,8 +136,8 @@ public class Test {
 						writer.print("<br>");
 					}
 					else {
+						writer.print("<img src=\"https://github.com/dremaux/projetGOsecurie/blob/a376a8978be4543d8290e4b6f3297af0bc16ceab/src/img/pasok.png\">");
 						for(int i = 1; i < s.length;i++) {
-							writer.print("<img src=\"https://github.com/dremaux/projetGOsecurie/blob/a376a8978be4543d8290e4b6f3297af0bc16ceab/src/img/pasok.png\">");
 							writer.print(s[i] + " ");
 						}
 						writer.print("<br>");

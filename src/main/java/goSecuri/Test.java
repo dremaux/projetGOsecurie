@@ -107,7 +107,7 @@ public class Test {
 			br.readLine();
 			writer.print("</div>\r\n"
 					+ "\r\n"
-					+ "        <div class=\"photo\">" + "<img src=\"https://raw.githubusercontent.com/dremaux/projetMSPR/main/" + name + ".jpg\"height=\"200\" weith=\"200\">" + "</div>\r\n"
+					+ "        <div class=\"photo\">" + "<img src=\"https://raw.githubusercontent.com/dremaux/projetMSPR/main/" + name + ".jpg\"height=\"100\" weith=\"100\">" + "</div>\r\n"
 					+ "        <!-- Content section-->\r\n"
 					+ "        <section class=\"py-5\">\r\n"
 					+ "            <div class=\"container my-5\">\r\n"
@@ -130,14 +130,14 @@ public class Test {
 					if(find) {
 						find = false;
 						for(int i = 1; i < s.length;i++) {
-							writer.print("☑ "+s[i] + " ");
+							writer.print(""+s[i] + " ");
 						}
 						writer.print("<br>");
 					}
 					else {
 						
 						for(int i = 1; i < s.length;i++) {
-							writer.print("☐ "+s[i] + " ");
+							writer.print(""+s[i] + " ");
 						}
 						writer.print("<br>");
 					}
